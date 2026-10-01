@@ -13,9 +13,10 @@ class frontPage extends StatefulWidget {
 
 class _frontPageState extends State<frontPage> {
   final List<Student> students = [
+    Student(name: "Hira", fatherName: "Abbas"), //subjects: "Maths"),
     Student(name: "Ali", fatherName: "Ahmed"), //subjects: "Maths"),
-    Student(name: "Imran", fatherName: "Khan"), //subjects: ["Maths"]),
-    Student(name: "Danish", fatherName: "Abbas"), // subjects: ["Urdu"]),
+    Student(name: "Usman", fatherName: "Khan"), //subjects: ["Maths"]),
+    Student(name: "Hamza", fatherName: "Abbas"), // subjects: ["Urdu"]),
   ];
   //---------------only add int index as a parameter------------//
   // void editStudents(Student editModel, int index) async {
@@ -106,10 +107,10 @@ class _frontPageState extends State<frontPage> {
         onPressed: () {
           addStudents(name: "", fatherName: "");
         },
-       
-          backgroundColor: Colors.blueGrey,
-          foregroundColor: Colors.white,
-        
+
+        backgroundColor: Colors.blueGrey,
+        foregroundColor: Colors.white,
+
         child: const Icon(Icons.add, color: Colors.white),
       ),
       // bottomNavigationBar: BottomAppBar(
