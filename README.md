@@ -32,7 +32,7 @@ A simple Flutter application to manage student records. Users can perform CRUD o
 
 ```
 git clone https://github.com/HiraAbbas/ToDo_App_Flutter_Project_AsheriTech.git
-cd ToDo_App_Flutter_Project_AsheriTech_App_Development_Course
+cd ToDo_App_Flutter_Project_AsheriTech
 flutter pub get
 flutter run
 ```
