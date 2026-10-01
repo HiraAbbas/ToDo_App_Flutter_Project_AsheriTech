@@ -201,7 +201,6 @@ setState(() => students[foundIndex] = result);
 
 ## 📸 Screenshots
 
-_Add your screenshots here_
 
 | Home | Add | Edit |
 |------|-----|------|
